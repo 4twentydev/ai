@@ -1,0 +1,48 @@
+{
+  "name": "ai-workflow-assistant",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.3",
+    "@shopify/flash-list": "^1.6.4",
+    "@supabase/supabase-js": "^2.47.6",
+    "@tanstack/react-query": "^5.55.0",
+    "expo": "^51.0.28",
+    "expo-constants": "~16.0.2",
+    "expo-file-system": "~17.0.1",
+    "expo-linking": "~6.3.1",
+    "expo-router": "^3.5.16",
+    "expo-secure-store": "~13.0.2",
+    "expo-status-bar": "~1.12.1",
+    "moti": "^0.29.0",
+    "nativewind": "^4.0.36",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-reanimated": "^3.16.1",
+    "react-native-safe-area-context": "^4.11.3",
+    "react-native-screens": "^4.5.0",
+    "react-native-svg": "^15.4.0",
+    "react-native-web": "~0.19.13",
+    "zustand": "^5.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.11",
+    "@types/react-native": "0.73.0",
+    "@types/react-test-renderer": "18.3.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "eslint": "^9.12.0",
+    "eslint-config-universe": "^15.0.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}
