@@ -2,18 +2,31 @@
   "compilerOptions": {
     "allowJs": false,
     "jsx": "react-native",
-    "lib": ["dom", "esnext"],
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "types": ["nativewind/types"]
+    "types": [
+      "nativewind/types"
+    ]
   },
   "extends": "expo/tsconfig.base",
-  "include": ["./**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "./**/*",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
