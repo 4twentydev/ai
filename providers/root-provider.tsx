@@ -4,7 +4,11 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { ThemeProvider } from "nativewind";
 import { queryClient } from "@/lib/query-client";
 
-export const RootProvider = ({ children }: { children: React.ReactNode }) => {
+export function RootProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}): React.JSX.Element {
   return (
     <GestureHandlerRootView className="flex-1 bg-slate-950">
       <QueryClientProvider client={queryClient}>
@@ -12,4 +16,4 @@ export const RootProvider = ({ children }: { children: React.ReactNode }) => {
       </QueryClientProvider>
     </GestureHandlerRootView>
   );
-};
+}
